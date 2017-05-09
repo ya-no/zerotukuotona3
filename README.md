@@ -14,3 +14,12 @@ git clone https://github.com/ya-no/zerotukuotona3
 $ cd zerotukuotona2
 $ sh ./install.sh
 ```
+## 内容
+### conv.py
+convolutionのサンプル
+### mnist.py
+画像のDeepLearningのサンプル。CNN(Convolutional Neural Network)で実装されている。
+### imdb_lstm.py
+テキストのDeepLearningのサンプル。LSTM(Long Short Term Memory)で実装されている。
+### imdb_cnn.py
+テキストのDeepLearningのサンプル。CNNで実装されている。
