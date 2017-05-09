@@ -11,7 +11,7 @@ git clone https://github.com/ya-no/zerotukuotona3
 ## 環境作成
 
 ```
-$ cd zerotukuotona2
+$ cd zerotukuotona3
 $ sh ./install.sh
 ```
 ## 内容
