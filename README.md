@@ -17,7 +17,7 @@ $ sh ./install.sh
 ## 内容
 ### conv.py
 convolutionのサンプル
-### mnist.py
+### mnist_cnn.py
 画像のDeepLearningのサンプル。CNN(Convolutional Neural Network)で実装されている。
 ### imdb_lstm.py
 テキストのDeepLearningのサンプル。LSTM(Long Short Term Memory)で実装されている。
