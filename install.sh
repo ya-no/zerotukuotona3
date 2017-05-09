@@ -5,7 +5,7 @@ export TF_BINARY_URL=https://storage.googleapis.com/tensorflow/linux/cpu/tensorf
 sudo pip install --upgrade $TF_BINARY_URL
 
 echo "install keras"
-pip install keras==1.2
+sudo pip install keras==1.2
 
 echo "install scikit-learn"
 sudo pip install scikit-learn

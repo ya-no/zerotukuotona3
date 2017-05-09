@@ -1,5 +1,7 @@
 #coding:utf-8
 
+# 画像のconvolution（畳みこみ処理）のサンプル
+
 from PIL import Image
 import numpy as np
 from scipy import signal
@@ -34,7 +36,8 @@ Image.fromarray(imout).convert('RGB').save('filter5x5.jpg')
 filter_dH = [ [ 0, 0, 0],
               [ 0, 1,-1],
               [ 0, 0, 0],]
-filter_dH = float(np.array(filter_dH))
+filter_dH = np.array(filter_dH)
+filter_dH = filter_dH / 1.0
 
 imout = signal.convolve2d(im[:,:,1], filter_dH, 'same')
 Image.fromarray(np.absolute(imout)).convert('RGB').save('filter_bibunH.jpg')
